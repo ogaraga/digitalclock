@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clock_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: aqua;
+  height: 100vh;
+  width: 100%;
+}
+.hour {
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin: auto 0.1px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#hrs {
+  position: absolute;
+  top: 5px;
+}
+#hr {
+  margin-top: 20px;
+  background-color: grey;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: green;
+}
+.minutes {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  background-color: lightgreen;
+  width: 100px;
+  height: 50px;
+  margin: auto 0.1px;
+  text-align: center;
+  position: relative;
+}
+#mins {
+  position: absolute;
+  top: 5px;
+}
+#min {
+  margin-top: 20px;
+  background-color: lightpink;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.seconds {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  width: 100px;
+  text-align: center;
+  height: 50px;
+  margin: auto 0.1px;
+  position: relative;
+}
+#sec {
+  position: absolute;
+  top: 5px;
+}
+#secs {
+  margin-top: 20px;
+  background-color: lightskyblue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: blue;
+}
+
+.identifier2 {
+  text-transform: uppercase;
+  color: coral;
+  font-weight: bolder;
+  position: relative;
+  width: 35px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto 0.1px;
+}
+.identifier {
+  /* margin-top: 20px; */
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: crimson;
+}
